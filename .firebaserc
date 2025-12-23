@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ironlogg"
+  },
+  "targets": {
+    "ironlogg": {
+      "hosting": {
+        "ironlogg": [
+          "ironlogg"
+        ]
+      }
+    }
+  }
+}
