@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # BFit
 A modern workout tracking app with guided logging, progress analytics, and an AI-powered coach.
 
@@ -32,24 +28,6 @@ BFit helps you plan and log workouts, track progress over time, and stay consist
 2. (Optional) Create a `.env.local` file and add your keys (see below).
 3. Start the dev server:
    `npm run dev`
-
-## Environment Variables
-Create `.env.local` in the project root if you want to override defaults or enable AI features:
-
-```
-VITE_GEMINI_API_KEY=your_gemini_api_key
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
-```
-
-Notes:
-- AI Coach requires `VITE_GEMINI_API_KEY`.
-- Firebase variables are optional for local testing because defaults are included, but you should set your own for production.
 
 ## Scripts
 - `npm run dev` - Start the development server
