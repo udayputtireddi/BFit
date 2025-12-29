@@ -1,4 +1,5 @@
 # BFit
+A modern workout tracking app with guided logging, progress analytics, and an AI-powered coach.
 
 ## Overview
 BFit helps you plan and log workouts, track progress over time, and stay consistent with reminders. It includes curated training programs, detailed session logging, and a performance coach powered by Gemini.
