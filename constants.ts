@@ -129,7 +129,8 @@ const getFallbackImg = (name: string, group: string) => {
     return `https://placehold.co/200x200/${bg}/ffffff?text=${shortName}&font=roboto`;
 };
 
-export const getExerciseImageUrl = () => '';
+// Images are intentionally disabled; retain the existing call signature.
+export const getExerciseImageUrl = (_name: string, _group: string) => '';
 
 export const EXERCISE_DATABASE: ExerciseDef[] = [
   // Chest
@@ -286,3 +287,4 @@ export const EXERCISE_DATABASE: ExerciseDef[] = [
 ];
 
 export const MOCK_HISTORY: WorkoutSession[] = [];
+
