@@ -47,3 +47,12 @@ Build with `npm run build` and deploy the `dist/` folder to your hosting provide
 <img width="1701" height="967" alt="Screenshot 2026-01-02 at 1 10 59 PM" src="https://github.com/user-attachments/assets/4e782c8e-0194-47ab-a7e0-ba2ff28313c9" />
 
 
+
+
+
+## AI backend security
+
+AI now uses an authenticated server endpoint; never put Gemini credentials in Vite
+environment variables. Backend deployment and secret rotation remain pending.
+See [setup, limits, compatibility and validation](docs/ai-backend-security.md).
+Next steps: review CI, configure the backend and approve a staged rollout.
